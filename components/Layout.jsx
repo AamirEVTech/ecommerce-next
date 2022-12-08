@@ -30,7 +30,7 @@ export default function Layout({ children, title }) {
 
         <main className="container mt-4 px-4 m-auto">{children}</main>
         <footer className="flex h-10 shadow-inner justify-center items-center">
-          Copyright &copy; 2022 EV-Tech.
+          Copyright &copy; 2022 EV-Tech..
         </footer>
       </div>
     </>
