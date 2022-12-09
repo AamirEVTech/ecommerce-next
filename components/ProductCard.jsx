@@ -1,14 +1,15 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 export default function ProductCard({ product }) {
   return (
-    <div className="card">
+    <div className="card m-2">
       <Link href={`/products/${product.slug}`}>
         <img
           src={product.image}
           alt={product.name}
-          className="rounded, shadow  h-52 w-10/12 object-cover"
+          className="rounded shadow m-auto"
         />
       </Link>
       <div className="flex flex-col justify-center items-center p-5">

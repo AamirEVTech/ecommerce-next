@@ -19,12 +19,10 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.card {
+  @apply mb-5 border border-gray-200 rounded-lg shadow-md block;
+}
+
+.primary-btn {
+  @apply rounded-lg bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500;
 }
